@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Star-Up Calculator</h1>
+
+    <div id="heroGrid" class="grid"></div>
+
+    <div id="selectedHeroLabel" class="selected-hero-label"></div>
+
+    <div class="custom-dropdown-wrapper">
+      <label>Current Star</label>
+      <div id="starDropdown" class="custom-dropdown">
+        <div id="selectedStar" class="dropdown-selected">Select Star Level</div>
+        <div id="dropdownOptions" class="dropdown-options"></div>
+      </div>
+    </div>
+
+    <label for="availableShards">Available Shards</label>
+    <input type="number" id="availableShards" placeholder="Enter number of shards" />
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div class="result" id="result"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
