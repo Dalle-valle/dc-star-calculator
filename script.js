@@ -186,7 +186,7 @@ function calculate() {
   resultDiv.innerHTML += `
     <strong>Final Star:</strong> ${level > 25 ? '<span class="star-icon red">★★★★★</span>' : starSpan}<br>
     <strong>Remaining Shards:</strong> ${remainingShards}<br>
-    <strong>Shards Per Copy:</strong> ${shardsPerCopy}
+   
   `;
 
   if (hero.isInBleed) {
